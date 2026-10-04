@@ -3,3 +3,5 @@ window.APP_CONFIG = {
     // Replace with your Render URL (e.g. 'https://zero1-k3zc.onrender.com')
     SIGNALING_URL: 'https://randerx.onrender.com'
 };
+
+// Force Vercel rebuild
