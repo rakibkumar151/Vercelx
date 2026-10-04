@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile - Secure Voice</title>
     <script>
-        window.APP_CONFIG = {
-            SIGNALING_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-                ? window.location.origin
-                : window.location.origin
-        };
         // Auth guard
         try {
             if (!localStorage.getItem('chet_token')) {

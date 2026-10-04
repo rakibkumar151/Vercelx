@@ -7,11 +7,6 @@
     <title>Chet — Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
-        window.APP_CONFIG = {
-            SIGNALING_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-                ? window.location.origin
-                : window.location.origin
-        };
         // Auth guard
         try {
             if (!localStorage.getItem('chet_token')) {

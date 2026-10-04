@@ -8,11 +8,6 @@
     <meta name="description" content="Join Voice App and make secure voice calls with friends.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
-        window.APP_CONFIG = {
-            SIGNALING_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-                ? window.location.origin
-                : window.location.origin
-        };
         // Redirect if already logged in
         try {
             if (localStorage.getItem('chet_token') && localStorage.getItem('chet_user')) {
